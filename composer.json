@@ -1,0 +1,25 @@
+{
+  "name": "tzepart/architectural-examples",
+  "type": "project",
+  "license": "MIT",
+  "homepage": "https://github.com/tzepart/architectural-examples",
+  "description": "Examples of architectural decisions",
+  "keywords": [
+    "PHP",
+    "SOLID"
+  ],
+  "authors": [
+    {
+      "name": "Tsepkov Artem",
+      "email": "tzepart@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Architecture\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+  }
+}
